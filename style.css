@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+.virsutine-dalis {
+    background-color: rgba(22, 95, 163, 0.603);
+    height: 130px;
+    color: whitesmoke;
+    margin-bottom: 25px;
+}
+
+.virsutine-juosta {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: rgba(22, 95, 163, 0.603);
+}
+
+/* ŠIS STILIUS BŪTŲ NAUDOJAMAS TIK TADA, JEI NEDAROME PAPILDOMOS
+   .virstine-juostos-blokelis KLASĖS STILIAUS */
+.virsutine-juosta > div {
+    width: 30%;
+    height: 80px;
+}
+
+.virsutines-juostos-blokelis {
+    width: 30%;
+    height: 80px;
+}
+
+
+.kairys-meniu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+
+.virsutinis-logotipas {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+}
+
+.apatinis-logotipas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.desinys-meniu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.desinio-meniu-mygtukas {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.836);
+    width: 30%;
+    text-align: center;
+}
+
+
+.meniu-juosta-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(17, 17, 197, 0.603);;
+}
+
+.meniu-juosta {
+    display: flex;
+    height: 50px;
+    width: 96%;
+}
+
+.meniu-juostos-mygtukas {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    flex-grow: 1;
+    border-right: 1px solid white;
+}
+
+.kairiausias-mygtukas {
+    border-left: 1px solid white;
+}
+
+
+/* Papildomas pavyzdys: naudojant bendrinę stiliaus klasę */
+.border-left-white {
+    border-left: 1px solid white;
+}
+
+.border-right-white {
+    border-right: 1px solid white;
+}
+
+
+.kairio-meniu-nuorodos {
+    padding-right: 7px;
+}
+
+
+
+
+
+
+/*--------------------------PAGRINDINIO TURINIO STILIAI--------------------------------*/
+.titulinis-paveiksliukas {
+    height: 500px;
+    background: url(https://www.simmons.edu/sites/default/files/styles/2160w/public/2019-03/m-academics.jpg?itok=n-Dj3WmO);
+    background-size: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+}
+
+
+.paveiksliuko-uzrasas {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 70%;
+    text-align: center;
+}
+
+
+.titulinis-uzrasas {
+    height: 100px;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.titulinis-uzrasas-antraste {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+
+.titulinis-uzrasas-tekstas {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.pasirinkimu-skilciu-divas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 650px;
+}
+
+.pasirinkimas {
+    width: 30%;
+    background-color: grey;
+    padding: 30px;
+    height: 300px;
+}
+
+
+.pasirinkimas > h2 {
+    color: blue;
+}
+
+
+.apatinis-pasirinkimas > h2 {
+    color: white;
+}
+
+.apatinis-pasirinkimas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.ivykis {
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ivykio-data {
+    color: green;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ivykio-pavadinimas {
+    width: 75%;
+}
+
+.melynas-fonas {
+    background-color: blue;
+}
+
+
+.violetinis-fonas {
+    background-color: violet;
+}
+
+.baltas-fonas {
+    background-color: white;
+}
